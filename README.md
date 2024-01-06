@@ -9,6 +9,13 @@ Data Engineering Project Portfolio
 
 
 ### Project 1 
+- This project is to create an end to end data platform right from Data Ingestion, Data Transformation, Data Loading and Reporting.
+- **Some data analysis questions:**
+   1. Which countries do most athletes come from?
+   2. Which discipline is most popular and which country has the highest participants in it?
+   3. Which country produces highest number of coaches?
+   4. Gender across disciplines
+   5. Which country recieved most gold medals? Which recieved most silver and most bronze? Which received least for each?
  - **Azure Data Factory** - to ingest data from an HTTP server into ADF
  - **Azure Data Lake Storage Gen2** - to store the raw data
  - **Azure Databricks** - to transform the RAW data to the clean form
