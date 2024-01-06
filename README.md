@@ -3,7 +3,7 @@ Data Engineering Project Portfolio
 
 | No. | Project | Cateogry | Tools |
 |----------|----------|----------|----------|
-| 1 | [Tokyo-Olympic-2020](https://github.com/Hannah-Abi/Olympics-Data-Analysis---Azure-Data-Engineering) | Building end-to-end Data Pipeline  | Azure Data Factory - Data Lake Storage Gen2 - Data Brick - Synapse Analytics - Power BI |
+| 1 | [Tokyo-Olympic-2020](https://github.com/Hannah-Abi/Olympics-Data-Analysis---Azure-Data-Engineering) | Building end-to-end Data Pipeline  | Azure Data Factory <br>Data Lake Storage Gen2<br>Azure Databrick<br>Synapse Analytics<br>Power BI |
 | 2 | [DMusic Concert](https://github.com/Hannah-Abi/PE-Case---Database-Design) | Relational Database Design | MySQL Server |
 | 3 | [Distribution of vaccines](https://github.com/Hannah-Abi/Database-Design---Vaccine-Distribution) | Relational Database Design | posgreSQL |
 
