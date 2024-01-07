@@ -3,10 +3,10 @@ Data Engineering Project Portfolio
 
 | No. | Project | Cateogry | Tools |
 |----------|----------|----------|----------|
-| 1 | [Tokyo-Olympic-2020](https://github.com/Hannah-Abi/Olympics-Data-Analysis---Azure-Data-Engineering) | Building end-to-end Data Pipeline  | Microsoft Azure |
-| 2 | [Distribution of vaccines](https://github.com/Hannah-Abi/Database-Design---Vaccine-Distribution) | Relational Database Design | posgreSQL |
-| 3 | [Music Concert](https://github.com/Hannah-Abi/PE-Case---Database-Design) | Relational Database Design | MySQL Server |
-| 4 | [Airflow with Weather Map API](https://github.com/Hannah-Abi/Weather-Data-Pipeline-with-Apache-Airflow) |Data Pipeline Automation with Airflow | MySQL Server |
+| 1 | [Tokyo Olympic 2020 Data Analysis](https://github.com/Hannah-Abi/Olympics-Data-Analysis---Azure-Data-Engineering) | Building end-to-end Data Pipeline  | Microsoft Azure |
+| 2 | [Database Design for distribution of vaccines](https://github.com/Hannah-Abi/Database-Design---Vaccine-Distribution) | Relational Database Design | posgreSQL |
+| 3 | [Database Design for a Music Concert](https://github.com/Hannah-Abi/PE-Case---Database-Design) | Relational Database Design | MySQL Server |
+| 4 | [Apache Airflow with Weather Map API](https://github.com/Hannah-Abi/Weather-Data-Pipeline-with-Apache-Airflow) |Data Pipeline Automation with Airflow | MySQL Server |
 
 ### Project 1 
 - This project is to create an end to end data platform right from Data Ingestion, Data Transformation, Data Loading and Reporting.
