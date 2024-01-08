@@ -3,7 +3,7 @@ Data Engineering Project Portfolio
 
 | No. | Project | Cateogry | Tools |
 |----------|----------|----------|----------|
-| 1 | [Tokyo Olympic 2020 Data Analysis](https://github.com/Hannah-Abi/Olympics-Data-Analysis---Azure-Data-Engineering) | Building end-to-end Data Pipeline  | Microsoft Azure, Windows |
+| 1 | [Tokyo Olympic 2020 Data Analysis](https://github.com/Hannah-Abi/Olympics-Data-Analysis---Azure-Data-Engineering) | Building end-to-end Data Pipeline  | Microsoft Azure, Power BI, Windows |
 | 2 | [Apache Airflow with Weather Map API](https://github.com/Hannah-Abi/Weather-Data-Pipeline-with-Apache-Airflow) |Data Pipeline Automation with Airflow | AWS, Visual Studio Code, Linux |
 | 3 | [Database Design for distribution of vaccines](https://github.com/Hannah-Abi/Database-Design---Vaccine-Distribution) | Relational Database Design | posgreSQL |
 | 4 | [Database Design for a Music Concert](https://github.com/Hannah-Abi/PE-Case---Database-Design) | Relational Database Design | MySQL Server |
