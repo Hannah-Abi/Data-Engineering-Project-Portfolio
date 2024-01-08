@@ -1,7 +1,7 @@
 # Data-Engineering-Project-Portfolio
 Data Engineering Project Portfolio
 
-| No. | Project | Cateogry | Tools | OS
+| No. | Project | Cateogry | Tools |
 |----------|----------|----------|----------|
 | 1 | [Tokyo Olympic 2020 Data Analysis](https://github.com/Hannah-Abi/Olympics-Data-Analysis---Azure-Data-Engineering) | Building end-to-end Data Pipeline  | Microsoft Azure, Windows |
 | 2 | [Apache Airflow with Weather Map API](https://github.com/Hannah-Abi/Weather-Data-Pipeline-with-Apache-Airflow) |Data Pipeline Automation with Airflow | AWS, Visual Studio Code, Linux |
