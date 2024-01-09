@@ -8,7 +8,6 @@ Data Engineering Project Portfolio
 | 3 | [Database Design for distribution of vaccines](https://github.com/Hannah-Abi/Database-Design---Vaccine-Distribution) | Relational Database Design | posgreSQL |
 | 4 | [Database Design for a Music Concert](https://github.com/Hannah-Abi/PE-Case---Database-Design) | Relational Database Design | MySQL Server |
 
-
 ### Project 1 
 - This project is to create an end to end data platform right from Data Ingestion, Data Transformation, Data Loading and Reporting.
 - **Some data analysis questions:**
@@ -22,6 +21,9 @@ Data Engineering Project Portfolio
  - **Azure Databricks** - to transform the RAW data to the clean form
  - **Azure Synapse Analytics** - to load the clean data <br> 
  - **Microsoft Power BI**: to build an interactive dashboard
+
+### Project 2 - Build and automate the Data Pipeline in AWS with Airflow
+- The purpose of this project is to learn how to automate an ETL process that can extract current weather data frp, open weather map API  transform the data and load the data into an S3 bucket using Apache Airflow. Apache Airflow is an open-source platform used for orchestrating and scheduling workflows of tasks and data pipelines. This project will be entirely carried out on AWS cloud platform.
 ### Project 2 -  Designing a Relational Database - Vaccine Distribution
  - The business requires to build a database to keep track of the different vaccine types, transportation of vaccine batches, treatment plans, and patient data.
    - **Requirement 1:**
