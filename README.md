@@ -24,7 +24,7 @@ Data Engineering Project Portfolio
 
 ### Project 2 - Build and automate the Data Pipeline in AWS with Airflow
 - The purpose of this project is to learn how to automate an ETL process that can extract current weather data frp, open weather map API  transform the data and load the data into an S3 bucket using Apache Airflow. Apache Airflow is an open-source platform used for orchestrating and scheduling workflows of tasks and data pipelines. This project will be entirely carried out on AWS cloud platform.
-### Project 2 -  Designing a Relational Database - Vaccine Distribution
+### Project 3 -  Designing a Relational Database - Vaccine Distribution
  - The business requires to build a database to keep track of the different vaccine types, transportation of vaccine batches, treatment plans, and patient data.
    - **Requirement 1:**
      - Draw an ER diagram for the vaccine database based on the information defined in this document.
@@ -34,7 +34,7 @@ Data Engineering Project Portfolio
      - Create a relational database in SQL based on the design from Part I
      - Populate the database with given data (from your project git repository ./data/vaccine-distribution-data.xlsx)
      - Create SQL queries to answer the requested questions
-### Project 3 - Designing a Relational Database - Music Concert
+### Project 4 - Designing a Relational Database - Music Concert
  - Paisley Event Association is a small non-profit association organizing a few local concerts, dance and theatre performances and other cultural events yearly. So  tickets have been sold in person at the Paisley tourist office. Now the association is keen on offering web pages, where clients could see upcoming events and book tickets. 
 - **Requirement Deliverablea:**
   1. Database Design documentation (One PDF document: DM_Case_Design.pdf)
