@@ -10,7 +10,7 @@
 
 ### Benefits from containers
 Containers package applications. Sounds simple, right? To illustrate the potential benefits let's talk about different scenarios.
-1. **Scenario 1: Works on my machine**
+#### **Scenario 1: Works on my machine**
 Let's first take a closer look into what happens in web development without containers following the chain above starting from "Plan".
 
 First you plan an application. Then your team of 1-n developers create the software. It works on your computer. It may even go through a testing pipeline working perfectly. You send it to the server and...
