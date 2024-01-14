@@ -1,27 +1,20 @@
-### What is DevOps?
+## What is DevOps?
 - The term itself consists of two parts, Dev and Ops. Dev refers to the development of software and Ops to operations. Simple definition for **DevOps** would be that it means the **release, configuring, and monitoring of software** is in the hands of the very people who develop it.
 - During this course we will focus mainly on the packaging, releasing and configuring of the applications.
 
-### What is Docker?
+## What is Docker?
 "Docker is **a set of platform as a service (PaaS)** products that use OS-level virtualization to deliver software in packages called containers." - from Wikipedia.
 - Docker is a set of tools to deliver software in containers.
 - Containers are packages of software.
 - Illustration of a container
 
-### Benefits from containers
+## Benefits from containers
 Containers package applications. Sounds simple, right? To illustrate the potential benefits let's talk about different scenarios.
-#### **Scenario 1: Works on my machine**
+### **Scenario 1: Works on my machine**
+- The 'works on my machine' issue happens when the software deveoped in personal machine but not in the server's computers. 
 Let's first take a closer look into what happens in web development without containers following the chain above starting from "Plan".
-
-First you plan an application. Then your team of 1-n developers create the software. It works on your computer. It may even go through a testing pipeline working perfectly. You send it to the server and...
-
-...it does not work.
-
-This is known as the "works on my machine" problem. The only way to solve this is by finding out what in tarnation the developer had installed on their machine that made the application work.
-
-Containers solve this problem by allowing the developer to personally run the application inside a container, which then includes all of the dependencies required for the app to work.
-
-You may still occasionally hear about "works in my container" issues - these are often just usage errors.
+- Containers solve this problem by allowing the developer to personally run the application inside a container, which then includes all of the dependencies required for the app to work.
+- You may still occasionally hear about "works in my container" issues - these are often just usage errors.
 2. **Scenario 2: Isolated environments**
 You have 5 different Python applications. You need to deploy them to a server that already has an application requiring Python 2.7 and of course none of your applications are 2.7. What do you do?
 
