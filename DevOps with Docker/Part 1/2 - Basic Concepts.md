@@ -15,7 +15,7 @@ Containers package applications. Sounds simple, right? To illustrate the potenti
 Let's first take a closer look into what happens in web development without containers following the chain above starting from "Plan".
 - Containers solve this problem by allowing the developer to personally run the application inside a container, which then includes all of the dependencies required for the app to work.
 - You may still occasionally hear about "works in my container" issues - these are often just usage errors.
-2. **Scenario 2: Isolated environments**
+### **Scenario 2: Isolated environments**
 You have 5 different Python applications. You need to deploy them to a server that already has an application requiring Python 2.7 and of course none of your applications are 2.7. What do you do?
 
 Since containers package the software with all of its dependencies, you package the existing app and all 5 new ones with their respective Python versions and that's it.
