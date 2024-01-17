@@ -60,4 +60,10 @@ Containers have a **CONTAINER ID** and **NAME**. Use **grep** (or another simila
 
 ### Starting a new container 
 - Starting a new container with ```$ docker container run nginx```
-- One can exit by pressing ```control + c``` and try again with the ```-d``` flag.
+- With some containers the command line appears to freeze after pulling and starting the container. This might be because that particular container is now running in the current terminal, blocking the input. You can observe this with ```docker container ls``` from another terminal.
+-  One can exit by pressing ```control + c``` and try again with the ```-d``` flag.
+```$ docker container run -d nginx
+  c7749cf989f61353c1d433466d9ed6c45458291106e8131391af972c287fb0e5
+```
+- The ```-d``` flag starts a container detached, meaning that it runs in the background. 
+
