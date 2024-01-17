@@ -7,14 +7,16 @@
 - An image can never be changed after they are created
 - List all your images with ```docker image ls```
 
-```$ docker image ls
+```
+$ docker image ls
   REPOSITORY      TAG      IMAGE ID       CREATED         SIZE
   hello-world     latest   d1165f221234   9 days ago      13.3kB
 ```
 
 This image file is built from an instructional file named **Dockerfile** that is parsed when you run docker image build.
 Dockerfile is a file named **Dockerfile**, that looks something like this:
-```FROM <image>:<tag>
+```
+FROM <image>:<tag>
 
 RUN <install some dependencies>
 
