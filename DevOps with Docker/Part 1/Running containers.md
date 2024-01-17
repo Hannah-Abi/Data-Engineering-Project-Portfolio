@@ -29,3 +29,16 @@ Containers only contain that which is required to execute an application; and yo
 ## Docker CLI basics
 The command line to interact with the **"Docker Engine"** that is made up of 3 parts: **CLI, a REST API **and Docker daemon. When you run a command, e.g. ```docker container run```
 , behind the scenes the client sends a request through the REST API to the Docker daemon which takes care of images, containers and other resources.
+### The most command lines 
+| Command | Explain | Shorthand |
+|------------------|------------------|------------------|
+| ```docker image ls```  | Lists all images  | ```docker image```  |
+| ```docker image rm <image>```  | Remove an image  | ```docker rmi``` |
+| ```docker image pull <image>```  | Pulls images from a docker registry  | ```docker pull``` |
+| ```docker container ls -a```  | Lists all containers  | ```docker rmi``` |
+| ```docker container rm <container>```  | Removes a container  | ```docker run``` |
+| ```docker container stop <container>```  | Stops a container  | ```docker stop``` |
+| ```docker container exec <container>```  | Executes a command inside the container   | ```docker exec``` |
+| ```docker container stop <container>```  | Stops a container  | ```docker stop``` |
+
+
