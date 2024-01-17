@@ -27,8 +27,5 @@ CMD <command that is executed on `docker container run`>
 ### Containers 
 Containers only contain that which is required to execute an application; and you can start, stop and interact with them. They are **isolated** environments in the host machine with the ability to interact with each other and the host machine itself via defined methods (TCP/UDP).
 ## Docker CLI basics
-The command line to interact with the **"Docker Engine"** that is made up of 3 parts: **CLI, a REST API **and Docker daemon. When you run a command, e.g. 
-```
-docker container run
-```
+The command line to interact with the **"Docker Engine"** that is made up of 3 parts: **CLI, a REST API **and Docker daemon. When you run a command, e.g. ```docker container run```
 , behind the scenes the client sends a request through the REST API to the Docker daemon which takes care of images, containers and other resources.
