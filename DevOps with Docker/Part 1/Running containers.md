@@ -40,7 +40,7 @@ The command line to interact with the **"Docker Engine"** that is made up of 3 p
 | ```docker container rm <container1> <container2>```  | Removes multiple containers  | ```docker run``` |
 | ```docker container stop <container>```  | Stops a container  | ```docker stop``` |
 | ```docker container exec <container>```  | Executes a command inside the container   | ```docker exec``` |
-| ```docker container stop <container>```  | Stops a container  | ```docker stop``` |
+| ```docker container prune```  | Prune all containers  | ```docker container prune``` |
 
 ### Notice
 #### Filter the lists of containers 
@@ -57,3 +57,6 @@ Containers have a **CONTAINER ID** and **NAME**. Use **grep** (or another simila
 #### Remove container with the shorthand for the ID
 - If a container's ID is **3d4bab29dd67**, you can use ```docker container rm 3d``` to delete the container with the ID of 3d4bab29dd67.
 - If you have two IDs starting with 3d, a warning will be printed, and neither will be deleted.
+
+### Starting a new container 
+ one can exit by pressing ```control + c``` and try again with the ```-d``` flag.
