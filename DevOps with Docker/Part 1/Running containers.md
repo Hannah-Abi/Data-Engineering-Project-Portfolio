@@ -18,4 +18,5 @@ Dockerfile is a file named **Dockerfile**, that looks something like this:
 
 RUN <install some dependencies>
 
-CMD <command that is executed on `docker container run`> ```
+CMD <command that is executed on `docker container run`>
+```
