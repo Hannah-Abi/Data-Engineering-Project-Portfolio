@@ -59,4 +59,5 @@ Containers have a **CONTAINER ID** and **NAME**. Use **grep** (or another simila
 - If you have two IDs starting with 3d, a warning will be printed, and neither will be deleted.
 
 ### Starting a new container 
- one can exit by pressing ```control + c``` and try again with the ```-d``` flag.
+- Starting a new container with ```$ docker container run nginx```
+- One can exit by pressing ```control + c``` and try again with the ```-d``` flag.
