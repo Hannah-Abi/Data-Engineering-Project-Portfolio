@@ -37,8 +37,22 @@ The command line to interact with the **"Docker Engine"** that is made up of 3 p
 | ```docker image pull <image>```  | Pulls images from a docker registry  | ```docker pull``` |
 | ```docker container ls -a```  | Lists all containers  | ```docker rmi``` |
 | ```docker container rm <container>```  | Removes a container  | ```docker run``` |
+| ```docker container rm <container1> <container2>```  | Removes multiple containers  | ```docker run``` |
 | ```docker container stop <container>```  | Stops a container  | ```docker stop``` |
 | ```docker container exec <container>```  | Executes a command inside the container   | ```docker exec``` |
 | ```docker container stop <container>```  | Stops a container  | ```docker stop``` |
+
+### Notice
+Run ```docker container ls -a``` to list all containers again.
+```
+$ docker container ls -a
+  CONTAINER ID   IMAGE           COMMAND        CREATED          STATUS                      PORTS     NAMES
+  b7a53260b513   hello-world     "/hello"       35 minutes ago   Exited (0) 35 minutes ago             brave_bhabha
+  1cd4cb01482d   hello-world     "/hello"       41 minutes ago   Exited (0) 41 minutes ago             vibrant_bell
+```
+Containers have a **CONTAINER ID** and **NAME**. Use **grep** (or another similar utility) to filter the list:
+```$ docker container ls -a | grep hello-world```
+
+
 
 
