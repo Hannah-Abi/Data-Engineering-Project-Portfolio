@@ -78,9 +78,9 @@ PRIMARY KEY (id,species,country));
 $ INSERT INTO tutorial12345.bird1234 (country, duration_seconds, english_cname, id,  species, latitude, longitude) values ('United States',42,'Yellow-breasted Chat',408123,'virens',33.6651,-117.8434);
 ```
   7. retrieve the data from the database by sending the query
-´´´
+```
 cqlsh> select * from tutorial12345.bird1234 ;
-´´´
+```
   8. You should get snapshot of cassandra
 
 Let's do the same query on another node. This can be done by repeating steps 3 and 7 on the terminal (after step 1). The result of the query should be as in step 7.
