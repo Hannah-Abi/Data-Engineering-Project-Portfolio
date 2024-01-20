@@ -9,24 +9,24 @@
 - Containers are packages of software.
 - Illustration of a container
 
-## Benefits from containers
-Containers package applications. Sounds simple, right? To illustrate the potential benefits let's talk about different scenarios.
-### **Scenario 1: Works on my machine**
-- The 'works on my machine' issue happens when the software deveoped in personal machine but not in the server's computers. 
-Let's first take a closer look into what happens in web development without containers following the chain above starting from "Plan".
-- Containers solve this problem by allowing the developer to personally run the application inside a container, which then includes all of the dependencies required for the app to work.
-### **Scenario 2: Isolated environments**
-You have 5 different Python applications. You need to deploy them to a server that already has an application requiring Python 2.7 and of course none of your applications are 2.7. What do you do? Since containers package the software with all of its dependencies, you package the existing app and all 5 new ones with their respective Python versions and that's it.
+## Benefits from Containers
+Containers play a crucial role in application packaging, offering various advantages in different scenarios.
+
+### **Scenario 1: "Works on my machine"**
+- The 'works on my machine' issue occurs when software is developed on a personal machine but encounters issues when deployed on server computers.
+- Containers address this problem by enabling developers to run the application personally within a container. This container encapsulates all the dependencies necessary for the application to function.
+
+### **Scenario 2: Isolated Environments**
+- Imagine having 5 different Python applications that need to be deployed to a server requiring Python 2.7, while none of your applications are compatible with this version.
+- Containers resolve this challenge by packaging each software along with its dependencies. This way, you package the existing app and the 5 new ones with their respective Python versions.
 
 ### **Scenario 3: Development**
-You are brought into a dev team. They run a web app that uses other services when running: a Postgres database, MongoDB, Redis and a number of others. Simple enough, you install whatever is required to run the application and all of the applications that it depends on...
-With one command you get an isolated application, like Postgres or Mongo, running in your machine.
+- Joining a development team working on a web app with multiple dependencies (e.g., Postgres database, MongoDB, Redis) used to be a complex setup process.
+- Containers simplify this process. With a single command, you can have an isolated application, such as Postgres or Mongo, running on your machine.
 
-4. **Scenario 4: Scaling**
-Starting and stopping a Docker container has little overhead. But when you run your own Netflix or Facebook, you want to meet the changing demand. With some advanced tooling that we will learn about in parts 2 and 3, we can spin up multiple containers instantly and load balance traffic between them.
-
-# Running containers 
-un docker container run hello-world,
+### **Scenario 4: Scaling**
+- Initiating and stopping a Docker container involves minimal overhead. However, when dealing with large-scale applications like Netflix or Facebook, meeting changing demand becomes crucial.
+- Advanced tooling, covered in parts 2 and 3, allows the instant creation of multiple containers and efficient load balancing to handle increased traffic.
 
 
 
