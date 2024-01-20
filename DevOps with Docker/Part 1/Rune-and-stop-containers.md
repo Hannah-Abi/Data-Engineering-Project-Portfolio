@@ -24,6 +24,13 @@ Command                                   | Explain                             
    - Demonstrating practical examples of running a detached container named "looper" with an infinite loop.
    - Employing ```docker logs -f looper``` to follow the continuous output of the container.
 
+## 3. Running in the background
+To run a container in the background and keep it running, use:
+```
+$ docker run -d -it --name looper ubuntu sh -c 'while true; do date; sleep 1; done'
+```
+This command creates a detached container named "looper" running a continuous date-printing script.
+
 ## 3. Pausing and Attaching:
    - Pausing a container with ```docker pause looper``` and resuming with ```docker unpause looper```.
    - Exploring the use of ```docker attach looper``` to connect to the running container and detach with ```Ctrl+C```.
