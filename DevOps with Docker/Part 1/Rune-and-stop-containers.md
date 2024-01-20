@@ -1,3 +1,20 @@
+# Command lines for running and stopping containers
+Command                                   | Explain                                                              | Shorthand              
+-------------------------------------------|----------------------------------------------------------------------|------------------------
+```docker run ubuntu```                       | Start Ubuntu container                                               | -                      
+```docker run -t ubuntu```                    | Start interactive Ubuntu container with tty                          | -i, -t                 
+```docker run -it ubuntu```                   | Start interactive Ubuntu container with tty and pass STDIN           | -i, -t                 
+```docker run -d -it --name looper ubuntu sh -c 'while true; do date; sleep 1; done'``` | Run detached interactive container with a loop    | -d, -i, -t, --name     
+```docker container ls```                     | List running containers                                              | -                      
+```docker logs -f looper```                   | Follow logs of the "looper" container                                 | -f                     
+```docker pause looper```                     | Pause the "looper" container                                          | -                      
+```docker unpause looper```                   | Unpause the "looper" container                                        | -                      
+```docker attach looper```                    | Attach to the "looper" container's STDOUT                            | -                      
+```docker attach --no-stdin looper```         | Attach to the "looper" container without closing from other terminal | --no-stdin              
+```docker start looper```                     | Start a stopped container named "looper"                              | -                      
+```docker attach --no-stdin looper```         | Attach to the running "looper" container without closing from another terminal | --no-stdin     
+```docker exec -it looper bash```             | Execute bash inside the "looper" container                            | -i, -t                 
+
 ## 1. Running Ubuntu Container:
    - Executing ```docker run ubuntu``` starts an Ubuntu container, downloading the image if not available locally.
    - Adding flags, such as ```-t``` for a tty, enables interaction with the container.
