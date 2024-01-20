@@ -45,27 +45,25 @@ Command                                   | Explain                             
 
 
 
-
-```markdown
 ## Running and Stopping Containers
 
 ### Running Containers
 
 To run a useful image, such as Ubuntu, use the following command:
 
-```bash
+```
 $ docker run ubuntu
 ```
 
 This downloads and runs the Ubuntu image, but it's non-interactive. To interact with it, use the following command:
 
-```bash
+```
 $ docker run -t ubuntu
 ```
 
 For an interactive and attached session, use:
 
-```bash
+```
 $ docker run -it ubuntu
 ```
 
@@ -75,7 +73,7 @@ Now, you're inside the container and can execute commands like `ls`.
 
 To run a container in the background and keep it running, use:
 
-```bash
+```
 $ docker run -d -it --name looper ubuntu sh -c 'while true; do date; sleep 1; done'
 ```
 
@@ -85,19 +83,19 @@ This command creates a detached container named "looper" running a continuous da
 
 You can pause the running container without stopping it:
 
-```bash
+```
 $ docker pause looper
 ```
 
 To unpause:
 
-```bash
+```
 $ docker unpause looper
 ```
 
 To attach to the running container and see logs:
 
-```bash
+```
 $ docker attach looper
 ```
 
