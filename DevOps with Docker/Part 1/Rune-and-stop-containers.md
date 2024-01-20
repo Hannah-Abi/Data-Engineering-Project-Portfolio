@@ -1,4 +1,4 @@
-```markdown
+
 **Summary of the Lecture: Running and Stopping Containers**
 
 This lecture focused on essential aspects of running and managing containers using Docker. Here's a breakdown of key points:
