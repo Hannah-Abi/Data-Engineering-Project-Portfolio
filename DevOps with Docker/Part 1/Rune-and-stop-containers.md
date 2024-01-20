@@ -42,3 +42,113 @@ Command                                   | Explain                             
 ## 7. Ubuntu in a Container:
    - Illustrating that running an Ubuntu image in a container provides a working Ubuntu environment.
    - Installing additional tools like Nano using ```apt-get```.
+
+
+
+
+```markdown
+## Running and Stopping Containers
+
+### Running Containers
+
+To run a useful image, such as Ubuntu, use the following command:
+
+```bash
+$ docker run ubuntu
+```
+
+This downloads and runs the Ubuntu image, but it's non-interactive. To interact with it, use the following command:
+
+```bash
+$ docker run -t ubuntu
+```
+
+For an interactive and attached session, use:
+
+```bash
+$ docker run -it ubuntu
+```
+
+Now, you're inside the container and can execute commands like `ls`.
+
+### Running in the Background
+
+To run a container in the background and keep it running, use:
+
+```bash
+$ docker run -d -it --name looper ubuntu sh -c 'while true; do date; sleep 1; done'
+```
+
+This command creates a detached container named "looper" running a continuous date-printing script.
+
+### Pausing and Attaching
+
+You can pause the running container without stopping it:
+
+```bash
+$ docker pause looper
+```
+
+To unpause:
+
+```bash
+$ docker unpause looper
+```
+
+To attach to the running container and see logs:
+
+```bash
+$ docker attach looper
+```
+
+### Stopping and Restarting
+
+To stop the container gracefully:
+```
+$ docker stop looper
+```
+
+If you want to attach to a running container without closing it in the other terminal:
+
+```
+$ docker attach --no-stdin looper
+```
+
+### Executing a New Process
+
+To enter a container and start a new process:
+
+```
+$ docker exec -it looper bash
+```
+
+This opens a bash shell inside the running container.
+
+### Killing and Removing Containers
+
+To forcefully stop and remove a container:
+
+```
+$ docker kill looper
+$ docker rm looper
+```
+
+### Automatically Removing Containers
+
+To run a container that removes itself after exiting:
+
+```
+$ docker run -d --rm -it --name looper-it ubuntu sh -c 'while true; do date; sleep 1; done'
+```
+
+This auto-removing container ensures no leftover containers.
+
+### Detaching from STDOUT
+
+To detach from STDOUT without stopping the container:
+
+```
+$ docker attach looper-it
+```
+Press `Ctrl + P, Ctrl + Q` to detach.
+```
