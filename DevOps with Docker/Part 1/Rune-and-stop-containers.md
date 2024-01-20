@@ -2,7 +2,7 @@
 Command                                   | Explain                                                              | Shorthand              
 -------------------------------------------|----------------------------------------------------------------------|------------------------
 ```docker run ubuntu```                       | Start Ubuntu container                                               | -                      
-```docker run -t ubuntu```                    | Start interactive Ubuntu container with tty                          | -i, -t                 
+```docker run -t ubuntu```                    | Start interactive Ubuntu container with ```tty```                          | -i, -t                 
 ```docker run -it ubuntu```                   | Start interactive Ubuntu container with tty and pass STDIN           | -i, -t                 
 ```docker run -d -it --name looper ubuntu sh -c 'while true; do date; sleep 1; done'``` | Run detached interactive container with a loop    | -d, -i, -t, --name     
 ```docker container ls```                     | List running containers                                              | -                      
@@ -17,7 +17,7 @@ Command                                   | Explain                             
 
 ## 1. Running Ubuntu Container:
    - Executing ```docker run ubuntu``` starts an Ubuntu container, downloading the image if not available locally.
-   - Adding flags, such as ```-t``` for a tty, enables interaction with the container.
+   - Adding flags, such as ```-t``` for a ```tty```, enables interaction with the container.
 
 ## 2. Interacting with Containers:
    - Using ```-i``` to pass STDIN to the container and ```-d``` to run it in detached mode.
