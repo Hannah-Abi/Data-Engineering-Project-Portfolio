@@ -1,7 +1,3 @@
-**Summary of the Lecture: Running and Stopping Containers**
-
-This lecture focused on essential aspects of running and managing containers using Docker. Here's a breakdown of key points:
-
 ## 1. Running Ubuntu Container:
    - Executing ```docker run ubuntu``` starts an Ubuntu container, downloading the image if not available locally.
    - Adding flags, such as ```-t``` for a tty, enables interaction with the container.
