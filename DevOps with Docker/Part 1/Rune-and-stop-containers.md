@@ -1,9 +1,5 @@
 
-**Summary of the Lecture: Running and Stopping Containers**
-
-This lecture focused on essential aspects of running and managing containers using Docker. Here's a breakdown of key points:
-
-1. **Running Ubuntu Container:**
+## 1. **Running Ubuntu Container:**
    - Executing 
    ```bash
    docker run ubuntu
@@ -11,7 +7,7 @@ This lecture focused on essential aspects of running and managing containers usi
    starts an Ubuntu container, downloading the image if not available locally.
    - Adding flags, such as `-t` for a tty, enables interaction with the container.
 
-2. **Interacting with Containers:**
+## 2. **Interacting with Containers:**
    - Using `-i` to pass STDIN to the container and `-d` to run it in detached mode.
    - Demonstrating practical examples of running a detached container named "looper" with an infinite loop.
    - Employing 
@@ -20,7 +16,7 @@ This lecture focused on essential aspects of running and managing containers usi
    ```
    to follow the continuous output of the container.
 
-3. **Pausing and Attaching:**
+## 3. **Pausing and Attaching:**
    - Pausing a container with 
    ```bash
    docker pause looper
@@ -35,7 +31,7 @@ This lecture focused on essential aspects of running and managing containers usi
    ```
    to connect to the running container and detach with `Ctrl+C`.
 
-4. **Container Execution:**
+## 4. **Container Execution:**
    - Introducing 
    ```bash
    docker exec -it
@@ -45,7 +41,7 @@ This lecture focused on essential aspects of running and managing containers usi
    docker exec -it looper bash
    ```).
 
-5. **Stopping and Removing Containers:**
+## 5. **Stopping and Removing Containers:**
    - Stopping and removing containers using 
    ```bash
    docker stop looper
@@ -67,7 +63,7 @@ This lecture focused on essential aspects of running and managing containers usi
    docker rm --force looper
    ```.
 
-6. **Automated Container Removal:**
+## 6. **Automated Container Removal:**
    - Launching a container with 
    ```bash
    --rm
@@ -75,27 +71,15 @@ This lecture focused on essential aspects of running and managing containers usi
    to automatically remove it after it exits.
    - Demonstrating how `Ctrl+C` sends a kill signal followed by container removal.
 
-7. **Exercise 1.3: Secret Message:**
-   - Involves running a container (
-   ```bash
-   devopsdockeruh/simple-web-service:ubuntu
-   ```) 
-   that outputs logs.
-   - Using 
-   ```bash
-   tail -f ./text.log
-   ``` 
-   to follow logs and receive a "secret message" every 10 seconds.
-
-8. **Ubuntu in a Container:**
+## 8. **Ubuntu in a Container:**
    - Illustrating that running an Ubuntu image in a container provides a working Ubuntu environment.
    - Installing additional tools like Nano using 
    ```bash
    apt-get
+   ```   
 
 **Command Line Table for README.md:**
 
-```markdown
 | Command                                   | Explain                                                              | Shorthand              |
 |-------------------------------------------|----------------------------------------------------------------------|------------------------|
 | ```docker run ubuntu```                       | Start Ubuntu container                                               | -                      |
