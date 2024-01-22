@@ -1,8 +1,7 @@
-**Docker Images: In-Depth Exploration and Usage**
 
 This guide provides a comprehensive understanding of Docker images, their origin, retrieval, and in-depth examination, crucial for effective application containerization.
 
-### 1. Overview of Images:
+## 1. Overview of Images:
 - Images are fundamental elements for containers and serve as the basis for "containerizing" applications.
 - Understanding image creation is pivotal for leveraging containers in personal projects.
 
