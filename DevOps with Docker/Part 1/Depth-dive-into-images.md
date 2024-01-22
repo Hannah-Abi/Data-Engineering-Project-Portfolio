@@ -1,11 +1,11 @@
 
 This guide provides a comprehensive understanding of Docker images, their origin, retrieval, and in-depth examination, crucial for effective application containerization.
 
-## 1. Overview of Images:
+## 1. In-depth dive to images
 - Images are fundamental elements for containers and serve as the basis for "containerizing" applications.
 - Understanding image creation is pivotal for leveraging containers in personal projects.
 
-### 1.1 Image Source and Retrieval:
+### 1.1 Where does image come from?
 - When executing commands like `docker run hello-world`, Docker automatically searches Docker Hub for the image if not locally available.
 - Public images, such as PostgreSQL, can be pulled and run directly from Docker's servers using commands like `docker run postgres`.
 - The `docker search` command allows exploration of images available on Docker Hub.
