@@ -9,6 +9,7 @@
 - **OLTP and OLAP:** These are fundamental approaches to processing data, influencing data flow, structure, and storage.
 - **OLTP (Online Transaction Processing):** Oriented around day-to-day transactions.
 - **OLAP (Online Analytical Processing):** Oriented around analytics and business decision-making.
+- 
 | Feature             | OLTP                                     | OLAP                                             |
 |---------------------|------------------------------------------|--------------------------------------------------|
 | **Purpose**         | Day-to-day transactions                   | Analytics and business decision-making          |
