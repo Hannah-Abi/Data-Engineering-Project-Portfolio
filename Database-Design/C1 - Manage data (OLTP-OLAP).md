@@ -1,10 +1,16 @@
-## 1 . Manage Data
+## 1 . Data Processing with OLTP - OLAP
 ![OTLP-OLAP](./OLTP-OLAP-work-together.png)
 ### Organizing and Managing Data
 - **Key Question:** How should we organize and manage data efficiently?
 - **Considerations:**
   - Different schemas, management options, and objects in a database
   - Various factors impacting data storage and access, including query speed, memory usage, and cost
+
+### Approaches to Data Processing
+- **OLTP and OLAP:** These are fundamental approaches to processing data, influencing data flow, structure, and storage.
+- **OLTP (Online Transaction Processing):** Oriented around day-to-day transactions.
+- **OLAP (Online Analytical Processing):** Oriented around analytics and business decision-making.
+
 
 | Feature             | OLTP                                     | OLAP                                             |
 |---------------------|------------------------------------------|--------------------------------------------------|
