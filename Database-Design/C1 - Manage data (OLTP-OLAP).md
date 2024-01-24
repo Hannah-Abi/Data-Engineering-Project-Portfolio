@@ -5,7 +5,6 @@
 - **Considerations:**
   - Different schemas, management options, and objects in a database
   - Various factors impacting data storage and access, including query speed, memory usage, and cost
-- **No One-Size-Fits-All Answer:** The optimal solution depends on how the data will be used.
 
 | Feature             | OLTP                                     | OLAP                                             |
 |---------------------|------------------------------------------|--------------------------------------------------|
