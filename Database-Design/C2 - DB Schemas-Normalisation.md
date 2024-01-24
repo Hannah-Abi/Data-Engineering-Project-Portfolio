@@ -1,4 +1,4 @@
-### 1.  Star Schema
+## 1.  Star Schema
 - **Overview:** Simplest form of the dimensional model.
 - **Components:**
   - Fact Table: Holds metrics records.
@@ -20,7 +20,7 @@
       - Information remains the same.
     - **Difference:** Dimension tables are more normalized, extending over multiple dimensions.
 ![snowflake-schema-book](./snowflake-schema.png)
-### 2.  Normalization
+## 2.  Normalization
 - **Definition:** Technique dividing tables into smaller ones, connected via relationships.
 - **Goal:** Reduce redundancy and enhance data integrity.
 - **Example:** Identifying repeating groups in the book dimension and normalizing them.
@@ -33,7 +33,7 @@
 - More example: **Time Dimension**
 - **Normalization:** Extends days to months, quarters, and more.
 
-### 3. Normalized and Denormalized Databases
+## 3. Normalized and Denormalized Databases
   #### 3.1  Reasons to Normalize a Database
   **1. Space Savings**
          - Denormalized databases have data redundancy.
