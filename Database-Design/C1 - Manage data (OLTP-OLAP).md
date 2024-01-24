@@ -35,6 +35,7 @@
 - **Traditional databases** include operational databases for OLTP and data warehouses for OLAP.
 - With the rise of big data, **data lake**s become essential for storing and analyzing vast amounts of varied data.
   #### Data Warehouses
+  
 - Optimized for read-only analytics, combining data from various sources.
 - Utilizes dimensional modeling and a denormalized schema.
 - Offered by major cloud providers like Amazon, Google, and Microsoft.
