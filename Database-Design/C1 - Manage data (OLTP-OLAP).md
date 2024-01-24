@@ -22,20 +22,24 @@
 ## 2. Store Data
 ### Structuring Data
 - Data can be structured, unstructured, or semi-structured.
-- Structured data follows defined schemas and is organized, making it easier to analyze but less flexible.
-- Unstructured data is raw and lacks a predefined structure, common in media files and raw text.
-- Semi-structured data has an ad-hoc self-describing structure, offering some organization.
+- **Structured data**
+  - follows defined schemas and is organized, making it easier to analyze but less flexible.
+  - _e.g., SQL, tables in a relational database _
+- **Unstructured data**
+  - raw and lacks a predefined structure, common in media files and raw text.
+  - e.g., photos, chat logs, MP3
+- **Semi-structured data**
+  - has an ad-hoc self-describing structure, offering some organization.
+  -   - e.g., NoSQL, XML, JSON
 
 ### Beyond Traditional Databases
-- Traditional databases include operational databases for OLTP and data warehouses for OLAP.
-- With the rise of big data, data lakes become essential for storing and analyzing vast amounts of varied data.
-
-### Data Warehouses
+- **Traditional databases** include operational databases for OLTP and data warehouses for OLAP.
+- With the rise of big data, **data lake**s become essential for storing and analyzing vast amounts of varied data.
+#### Data Warehouses
 - Optimized for read-only analytics, combining data from various sources.
 - Utilizes dimensional modeling and a denormalized schema.
 - Offered by major cloud providers like Amazon, Google, and Microsoft.
-
-### Data Lakes
+#### Data Lakes
 - Cost-effective storage for massive amounts of unstructured data.
 - Cheaper due to object storage and can store petabytes of data.
 - Schema-on-read allows flexibility but requires good organization to prevent becoming a "data swamp."
