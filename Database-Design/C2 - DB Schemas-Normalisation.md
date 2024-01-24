@@ -5,7 +5,7 @@
   - Dimension Tables: Provide details related to the metrics.
 - **Example:** Book sales database for bulk sales across the US and Canada.
 - **Connection Pattern:** One-to-many relationships represented by lines, forming a star shape.
-  #### **1.1  Star Schema Example**
+  ### **1.1  Star Schema Example**
     - **Fact Table:** Holds sales amount and quantity.
     - **Dimensions:**
       - Books Sold
@@ -13,7 +13,7 @@
       - Store Buying the Books
     - **Relationships:** One-to-many, creating the star schema appearance.
 ![star-schema-book](./star-schema.png)
-  #### **1.2 Snowflake Schema (an Extension)**
+  ### **1.2 Snowflake Schema (an Extension)**
     - **Extension of Star Schema:** More tables involved.
     - **Similarities with Star Schema:**
       - Same Fact Table.
@@ -34,7 +34,7 @@
 - **Normalization:** Extends days to months, quarters, and more.
 
 ## 3. Normalized and Denormalized Databases
-  #### 3.1  Reasons to Normalize a Database
+  ### 3.1  Reasons to Normalize a Database
   **1. Space Savings**
          - Denormalized databases have data redundancy.
          - Normalization eliminates data redundancy, saving space.
@@ -42,13 +42,13 @@
          - Ensures data consistency and naming conventions.
          - Simplifies modification by reducing duplicates.
          - Easier schema alteration due to smaller, organized tables.
-  #### 3.2  Database Normalization
-    - **Pros and Cons:**
+  ### 3.2  Database Normalization
+  - **Pros and Cons:**
       - Pros: Improved data integrity, better organization for schema changes.
       - Cons: More complex queries, potential slowdown in indexing and data reading.
-    - **Decision Criteria:**
+  - **Decision Criteria:**
       - Depends on the read- or write-intensiveness of the database.
-  #### 3.3  OLTP and OLAP
+  ### 3.3  OLTP and OLAP
 - **Normalization Preference:**
   - OLTP (Write-Intensive): Favors normalization for quick and consistent data additions.
   - OLAP (Read-Intensive): Prioritizes quicker read queries, avoiding complex joins.
