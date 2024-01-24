@@ -29,6 +29,7 @@
   ![Azure-Portal-GUI](./Azure-portal-GUI.png)
   - **Shell Access (Command-line interface for developers/data engineers).**
 ![Powershell](./Powershell-CLI.png)
+
 **5. Common Use Cases**
 - **Versatility:** Applicable across industries and scenarios.
 - **Examples:**
