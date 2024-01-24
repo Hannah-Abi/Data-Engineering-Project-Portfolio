@@ -35,7 +35,7 @@
 - **Traditional databases** include operational databases for OLTP and data warehouses for OLAP.
 - With the rise of big data, **data lake**s become essential for storing and analyzing vast amounts of varied data.
   #### Data Warehouses
-  
+  ![data-warehouse-service](./data-warehouse-services.png)
 - Optimized for read-only analytics, combining data from various sources.
 - Utilizes dimensional modeling and a denormalized schema.
 - Offered by major cloud providers like Amazon, Google, and Microsoft.
@@ -44,8 +44,8 @@
 - Cheaper due to object storage and can store petabytes of data.
 - Schema-on-read allows flexibility but requires good organization to prevent becoming a "data swamp."
 - Used not just for storage but increasingly for analytics tasks like deep learning.
-
 ### ETL and ELT
+![ETL-and-ELT](./ETL-ELT-pipeline.png)
 - Extract, Transform, Load (ETL) is a traditional approach, transforming data before storage.
 - Extract, Load, Transform (ELT) is common in big data projects, storing data in its native form and transforming it as needed.
 - Both approaches involve building data pipelines for various purposes, from data warehousing to deep learning.
