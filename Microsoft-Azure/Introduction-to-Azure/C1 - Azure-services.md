@@ -1,4 +1,4 @@
-## 1.  Overview of Microsoft Azure
+## Overview of Microsoft Azure
 **1. Public Cloud Computing**
 - **Definition:** Azure is a public cloud, providing services over the public internet by Microsoft.
 - **Types of Clouds:**
