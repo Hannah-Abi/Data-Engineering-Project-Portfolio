@@ -1,3 +1,4 @@
+![OTLP-OLAP](./OLTP-OLAP-work-together.png)
 ## Organizing and Managing Data
 - **Key Question:** How should we organize and manage data efficiently?
 - **Considerations:**
@@ -25,4 +26,3 @@
 - **Data Flow:** OLTP data stored in operational databases, pulled and cleaned to create OLAP data warehouses.
 - **Influence:** OLAP analyses inform business practices and daily activities, influencing OLTP databases.
 
-This course provides insights into effective database design, covering fundamental concepts such as OLTP, OLAP, and the interplay between different data processing approaches.
