@@ -51,8 +51,6 @@
 - Both approaches involve building data pipelines for various purposes, from data warehousing to deep learning.
 
 ## 3. Database Design
-### Database Design Essentials
-
 ### What is Database Design?
 - **Definition:** Determines the logical storage of data, impacting querying and updates.
 - **Key Concepts:**
@@ -67,7 +65,7 @@
   - **Logical Model:** Maps entities and relationships to tables.
   - **Physical Model:** Examines low-level storage details.
 - **Ensures:** Consistency and provides a plan for implementation and use.
-
+![ETL-and-ELT](./ETL-ELT-pipeline.png)
 ### Example of Song Storage
 - **Entities:** Songs, albums, and artists.
 - **Attributes:** Defined in a conceptual data model.
