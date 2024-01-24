@@ -1,9 +1,3 @@
-# Database Design and Management Overview
-
-## Course Introduction
-- **Instructor:** Lis, Curriculum Manager at DataCamp
-- **Course Focus:** Database design and management
-
 ## Organizing and Managing Data
 - **Key Question:** How should we organize and manage data efficiently?
 - **Considerations:**
