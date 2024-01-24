@@ -65,13 +65,12 @@
   - **Logical Model:** Maps entities and relationships to tables.
   - **Physical Model:** Examines low-level storage details.
 - **Ensures:** Consistency and provides a plan for implementation and use.
-![ETL-and-ELT](./ETL-ELT-pipeline.png)
+![relationa-modelling](./relational-modelling.png)
 ### Example of Song Storage
 - **Entities:** Songs, albums, and artists.
 - **Attributes:** Defined in a conceptual data model.
 - **Schema:** Relational model implementation of the conceptual model.
 - **Consideration:** Easiest way to create a schema is to translate entities into tables.
-
 ### Database Design Options
 - **Considerations:** Deciding on table structure based on performance and data integrity.
 - **Examples:**
@@ -79,14 +78,14 @@
   - Adding tables for shared attributes (genre and label).
 - **Next Chapter:** Explores normalization and denormalization.
 
-### Beyond the Relational Model
+### Demensional modelling
 - **Dimensional Modeling:** Adaptation for data warehouses, optimized for OLAP queries.
 - **Star Schema:** Focuses on analysis rather than updates.
 - **Advantage:** Easy to interpret and extend, suitable for analysts working on the warehouse.
-
-### Elements of Dimensional Modeling
-- **Tables:**
-  - **Fact Table:** Holds key metrics with frequent changes.
-  - **Dimension Table:** Holds unchanging attribute descriptions.
-- **Example:** Analyzing songs with fact and dimension tables.
-- **Decision Factor:** Choose the fact table based on the analysis and entity change frequency.
+- **Elements of Dimensional Modeling**
+  - **Tables:**
+    - **Fact Table:** Holds key metrics with frequent changes.
+    - **Dimension Table:** Holds unchanging attribute descriptions.
+  - **Example:** Analyzing songs with fact and dimension tables.
+  - **Decision Factor:** Choose the fact table based on the analysis and entity change frequency.
+  ![dimesional-modelling](./fact-dimesional-tables.png)
