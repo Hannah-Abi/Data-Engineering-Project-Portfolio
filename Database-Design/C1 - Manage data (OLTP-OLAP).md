@@ -20,7 +20,7 @@
 | **Users**           | Broader audience, including customers   | Primarily analysts and data scientists          |
 
 ## 2. Store Data
-### Structuring Data
+### 2.1 Structuring Data
 - Data can be structured, unstructured, or semi-structured.
 - **Structured data**
   - follows defined schemas and is organized, making it easier to analyze but less flexible.
@@ -31,20 +31,20 @@
 - **Semi-structured data**
   - has an ad-hoc self-describing structure, offering some organization.
   -   - e.g., NoSQL, XML, JSON
-### Beyond Traditional Databases
+### 2.1 Beyond Traditional Databases
 - **Traditional databases** include operational databases for OLTP and data warehouses for OLAP.
 - With the rise of big data, **data lake**s become essential for storing and analyzing vast amounts of varied data.
-  #### Data Warehouses
+  #### 2.1.1 Data Warehouses
   ![data-warehouse-service](./data-warehouse-services.png)
 - Optimized for read-only analytics, combining data from various sources.
 - Utilizes dimensional modeling and a denormalized schema.
 - Offered by major cloud providers like Amazon, Google, and Microsoft.
-  #### Data Lakes
+  #### 2.1.2Data Lakes
 - Cost-effective storage for massive amounts of unstructured data.
 - Cheaper due to object storage and can store petabytes of data.
 - Schema-on-read allows flexibility but requires good organization to prevent becoming a "data swamp."
 - Used not just for storage but increasingly for analytics tasks like deep learning.
-### ETL and ELT
+### 2.2 ETL and ELT
 ![ETL-and-ELT](./ETL-ELT-pipeline.png)
 - Extract, Transform, Load (ETL) is a traditional approach, transforming data before storage.
 - Extract, Load, Transform (ELT) is common in big data projects, storing data in its native form and transforming it as needed.
@@ -58,7 +58,7 @@
   - **Schemas:** Blueprints defining tables, fields, relationships, indexes, and views.
 - **Implementation Rule:** Schemas must be respected when inserting structured data into a relational database.
 
-### Data Modeling
+### 3.1 Data Modeling
 - **Abstract Design Phase:** Involves three levels - conceptual, logical, and physical data models.
 - **Purpose:**
   - **Conceptual Model:** Describes database content.
@@ -66,19 +66,17 @@
   - **Physical Model:** Examines low-level storage details.
 - **Ensures:** Consistency and provides a plan for implementation and use.
 ![relationa-modelling](./relational-modelling.png)
-### Example of Song Storage
 - **Entities:** Songs, albums, and artists.
 - **Attributes:** Defined in a conceptual data model.
 - **Schema:** Relational model implementation of the conceptual model.
 - **Consideration:** Easiest way to create a schema is to translate entities into tables.
-### Database Design Options
+### 3.2 Database Design Options
 - **Considerations:** Deciding on table structure based on performance and data integrity.
 - **Examples:**
   - One table for simplicity.
   - Adding tables for shared attributes (genre and label).
 - **Next Chapter:** Explores normalization and denormalization.
-
-### Demensional modelling
+### 3.3 Demensional modelling
 - **Dimensional Modeling:** Adaptation for data warehouses, optimized for OLAP queries.
 - **Star Schema:** Focuses on analysis rather than updates.
 - **Advantage:** Easy to interpret and extend, suitable for analysts working on the warehouse.
