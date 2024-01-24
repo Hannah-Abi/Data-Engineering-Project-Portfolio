@@ -13,14 +13,14 @@
   - Time of Sale
   - Store Buying the Books
 - **Relationships:** One-to-many, creating the star schema appearance.
-
+![star-schema-book](./star-schema.png)
 ### 3.  Snowflake Schema (an Extension)
 - **Extension of Star Schema:** More tables involved.
 - **Similarities with Star Schema:**
   - Same Fact Table.
   - Information remains the same.
 - **Difference:** Dimension tables are more normalized, extending over multiple dimensions.
-
+![snowflake-schema-book](./snowflake-schema.png)
 ### 4.  Normalization
 - **Definition:** Technique dividing tables into smaller ones, connected via relationships.
 - **Goal:** Reduce redundancy and enhance data integrity.
