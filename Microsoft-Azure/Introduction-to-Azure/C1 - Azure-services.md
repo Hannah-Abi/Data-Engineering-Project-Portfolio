@@ -33,4 +33,11 @@
 **5. Common Use Cases**
 - **Versatility:** Applicable across industries and scenarios.
 - **Examples:**
-  - **Web hosting, game application development, data storage and analysis, machin
+  - **Web hosting, game application development, data storage and analysis, machine learning,** etc.
+
+**6. Advantages of Azure**
+- **Benefits:**
+  - **Diverse array of services.**
+  - **Pay-as-you-go pricing model for cost control.**
+  - **Robust security features.**
+  - **Seamless integration with Microsoft services.**
