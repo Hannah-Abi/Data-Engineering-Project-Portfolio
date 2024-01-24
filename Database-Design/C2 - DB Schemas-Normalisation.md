@@ -31,13 +31,7 @@
   - Represents titles, authors, publishers, and genres.
 - **Normalization (Snowflake Schema):**
   - Creates separate tables for authors, publishers, and genres.
-### Store Dimension
-- **Star Schema:**
-  - Includes city, states, and countries.
-- **Normalization (Snowflake Schema):**
-  - Structures repeating groups differently based on the nature of data.
+![book-dimension-normalisation](./book-dimension-of-snowlake-schema.png)
 ### Time Dimension
 - **Normalization:** Extends days to months, quarters, and more.
-  
-### Snowflake Schema
-- **Consolidation:** All normalized dimensions combined into the snowflake schema.
+
