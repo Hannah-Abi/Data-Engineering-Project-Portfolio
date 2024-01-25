@@ -108,7 +108,6 @@ The ```schedule_interval``` attribute in Airflow represents how often the Direct
 - Comma-separated values in fields for a list of values.
 
 #### Presets
-
 - Cron equivalents:
   - `@hourly: 0 * * * *`
   - `@daily: 0 0 * * *`
@@ -119,5 +118,5 @@ The ```schedule_interval``` attribute in Airflow represents how often the Direct
 - Airflow special presets:
   - Don't schedule ever (for manually triggered DAGs).
   - Schedule only once.
-**NOTE: When scheduling a DAG, Airflow will use the schedule and earliest possible value to determine when to run the task.
-**
+
+#### NOTE: When scheduling a DAG, Airflow will use the schedule and earliest possible value to determine when to run the task.
