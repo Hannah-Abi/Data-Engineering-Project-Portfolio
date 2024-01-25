@@ -1,4 +1,4 @@
-# Airflow Operators
+## Airflow Operators
 
 ### Operators
 
@@ -21,7 +21,7 @@ from airflow.operators.bash_operator import BashOperator
 example_task = BashOperator(task_id='bash_ex', bash_command='echo 1', dag=dag)
 bash_task = BashOperator(task_id='clean_addresses', bash_command='cat addresses.txt | awk "NF==10" > cleaned.txt', dag=dag)
 ```
-### Tasks
+## Tasks
 
 - Instances of operators, usually assigned to a variable in Python.
 - Referred to by the `task_id` within Airflow tools.
@@ -43,7 +43,7 @@ task1 >> task2
 
 - `task1 >> task2` or `task3 >> task2`
 
-### Additional Operators
+## Additional Operators
 
 #### PythonOperator
 
