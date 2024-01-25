@@ -17,9 +17,10 @@ bash_command='echo "Example!"', dag=dag)
 - Can be challenging to run tasks with elevated privileges.
 ```python
 from airflow.operators.bash_operator import BashOperator
-
-example_task = BashOperator(task_id='bash_ex', bash_command='echo 1', dag=dag)
-bash_task = BashOperator(task_id='clean_addresses', bash_command='cat addresses.txt | awk "NF==10" > cleaned.txt', dag=dag)
+example_task = BashOperator(task_id='bash_ex',
+    bash_command='echo 1', dag=dag)
+bash_task = BashOperator(task_id='clean_addresses',
+    bash_command='cat addresses.txt | awk "NF==10" > cleaned.txt', dag=dag)
 ```
 ## Tasks
 
