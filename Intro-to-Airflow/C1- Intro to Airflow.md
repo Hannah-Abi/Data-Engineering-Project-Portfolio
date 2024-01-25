@@ -50,11 +50,12 @@ etl_dag = DAG('etl_workflow', default_args=default_arguments)
 ### Command Line Interface
 
 The command-line program provides subcommands related to DAGs. Some functionalities include starting Airflow processes, manually running DAGs/tasks, and retrieving logging information.
+```airflow -h```: for descriptions
+```airflow list_dags``` to list all DAGs
 
 ### Web Interface
 
 In most cases, the web interface is equally powerful or more accessible depending on needs.
 
----
 
 *Let's practice! Introduction to Airflow in Python.*
