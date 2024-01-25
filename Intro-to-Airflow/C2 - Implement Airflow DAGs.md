@@ -91,16 +91,15 @@ email_task = EmailOperator(
 ### Scheduling Attributes
 
 When scheduling a DAG, several attributes of note:
-
 - Initial date/time to schedule the DAG run.
 - Optional attributes for stopping new DAG instances and the number of attempts to make.
 - Frequency of running the DAG.
 
 #### Schedule Interval
-
 - Represents how often to schedule the DAG.
 - Defined using cron syntax or built-in presets.
 
+The ```schedule_interval``` attribute in Airflow represents how often the Directed Acyclic Graph (DAG) should be scheduled to run. It determines the frequency of scheduling between the specified ```start_date` and ```end_date```. This interval can be defined using either cron-style syntax or built-in presets.
 #### Cron Format
 
 - Consists of 5 fields separated by a space.
