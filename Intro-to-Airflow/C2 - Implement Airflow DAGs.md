@@ -1,14 +1,13 @@
 # Airflow Operators
 
-## Introduction to Airflow in Python
-
 ### Operators
 
 - Represent a single task in a workflow, typically run independently.
 - Generally do not share information.
 - Various operators available to perform different tasks.
-  - Example: `DummyOperator(task_id='example', dag=dag)`
-  
+```example_task = BashOperator(task_id='bash_example',
+bash_command='echo "Example!"', dag=dag)
+```
 #### BashOperator
 
 - Executes a given Bash command or script.
@@ -16,7 +15,12 @@
 - Can specify environment variables for the command.
 - Not guaranteed to run in the same location/environment and may require extensive use of environment variables.
 - Can be challenging to run tasks with elevated privileges.
+```python
+from airflow.operators.bash_operator import BashOperator
 
+example_task = BashOperator(task_id='bash_ex', bash_command='echo 1', dag=dag)
+bash_task = BashOperator(task_id='clean_addresses', bash_command='cat addresses.txt | awk "NF==10" > cleaned.txt', dag=dag)
+```
 ### Tasks
 
 - Instances of operators, usually assigned to a variable in Python.
