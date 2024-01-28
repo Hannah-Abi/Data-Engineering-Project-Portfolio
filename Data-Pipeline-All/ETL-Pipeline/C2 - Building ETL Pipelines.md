@@ -5,7 +5,6 @@
 1. **Source Systems:**
    - Common sources: CSV, parquet, JSON, SQL databases, APIs, data lakes.
    - Focus on tabular sources like parquet files and SQL databases.
-   - 
      ```python
      import pandas as pd
 
@@ -16,7 +15,6 @@
 2. **Reading Parquet Files:**
    - Efficient column-oriented format for storage.
    - Reading into DataFrame with pandas (`read_parquet`), faster than CSV.
-   - 
      ```python
      import pandas as pd
 
