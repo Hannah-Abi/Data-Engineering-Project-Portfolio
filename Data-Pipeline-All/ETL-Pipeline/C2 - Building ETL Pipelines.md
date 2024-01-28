@@ -1,0 +1,47 @@
+## **Extracting Data in ETL:**
+
+**Extracting Data in ETL:**
+
+1. **Source Systems:**
+   - Common sources: CSV, parquet, JSON, SQL databases, APIs, data lakes.
+   - Focus on tabular sources like parquet files and SQL databases.
+   - 
+     ```python
+     import pandas as pd
+
+     # Replace 'your_csv_file.csv' with the actual file path
+     csv_data = pd.read_csv('your_csv_file.csv')
+     ```
+
+2. **Reading Parquet Files:**
+   - Efficient column-oriented format for storage.
+   - Reading into DataFrame with pandas (`read_parquet`), faster than CSV.
+   - 
+     ```python
+     import pandas as pd
+
+     # Replace 'your_parquet_file.parquet' with the actual file path
+     parquet_data = pd.read_parquet('your_parquet_file.parquet', engine='fastparquet')
+     ```
+
+3. **Connecting to SQL Databases:**
+   - Widely used tabular data source.
+   - `read_sql` in pandas for querying and storing in DataFrame.
+   - Connection through sqlalchemy's `create_engine` with a connection URI.
+   - 
+     ```python
+     import pandas as pd
+     from sqlalchemy import create_engine
+
+     # Replace 'your_connection_uri' with the actual connection URI
+     engine = create_engine('your_connection_uri')
+
+     # Replace 'your_sql_query' with the actual SQL query
+     sql_data = pd.read_sql('your_sql_query', con=engine)
+     ```
+
+4. **Modularity:**
+   - Crucial for pipeline development.
+   - Separate "extract," "transform," and "load" logic into functions.
+   - Adherence to PEP-8 principle "don't repeat yourself."
+   - Code reformatted into reusable functions for efficiency and troubleshooting in future pipelines.
