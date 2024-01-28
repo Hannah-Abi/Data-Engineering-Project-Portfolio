@@ -45,3 +45,16 @@
    - Separate "extract," "transform," and "load" logic into functions.
    - Adherence to PEP-8 principle "don't repeat yourself."
    - Code reformatted into reusable functions for efficiency and troubleshooting in future pipelines.
+  ```
+import pandas as pd
+from sqlalchemy import create_engine
+
+def extract_from_sql(connection_uri, query):
+    # Create an engine, query data, and return DataFrame
+    db_engine = create_engine(connection_uri)
+    return pd.read_sql(query, db_engine)
+
+# Example usage
+result_dataframe = extract_from_sql("postgresql+psycopg2://...", "SELECT ... LIMIT 10;")
+print(result_dataframe)
+```
