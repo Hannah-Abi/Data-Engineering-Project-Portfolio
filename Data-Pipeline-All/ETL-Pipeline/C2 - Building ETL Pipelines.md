@@ -29,10 +29,9 @@
    - `read_sql` in pandas for querying and storing in DataFrame.
    - Connection through sqlalchemy's `create_engine` with a connection URI.
    - 
-     ```
+   ```
    import sqlalchemy
    import pandas as pd
-   ```
    # Connection URI:
    schema_identifier://username:password@host:port/db
    connection_uri = "postgresql+psycopg2://repl:password@localhost:5432/market"
