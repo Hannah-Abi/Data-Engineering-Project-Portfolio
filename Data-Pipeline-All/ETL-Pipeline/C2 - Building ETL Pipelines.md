@@ -29,18 +29,20 @@
    - `read_sql` in pandas for querying and storing in DataFrame.
    - Connection through sqlalchemy's `create_engine` with a connection URI.
    - 
-     ```python
-     import pandas as pd
-     from sqlalchemy import create_engine
-
-     # Replace 'your_connection_uri' with the actual connection URI
-     engine = create_engine('your_connection_uri')
-
-     # Replace 'your_sql_query' with the actual SQL query
-     sql_data = pd.read_sql('your_sql_query', con=engine)
      ```
+   import sqlalchemy
+   import pandas as pd
+   # Connection URI:
+   schema_identifier://username:password@host:port/db
+   connection_uri = "postgresql+psycopg2://repl:password@localhost:5432/market"
+   db_engine = sqlalchemy.create_engine(connection_uri)
+   ```
+   ```
+   # Query the SQL databaseraw_stock_data = pd.read_sql("SELECT * FROM raw_stock_data LIMIT 10", db_engine)
+   ```
 
-4. **Modularity:**
+
+5. **Modularity:**
    - Crucial for pipeline development.
    - Separate "extract," "transform," and "load" logic into functions.
    - Adherence to PEP-8 principle "don't repeat yourself."
