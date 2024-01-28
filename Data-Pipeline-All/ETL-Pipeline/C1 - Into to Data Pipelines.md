@@ -1,11 +1,11 @@
 ## Overview od Data Pipelines 
 
-1. **What is a Data Pipeline?**
+### 1. **What is a Data Pipeline?**
    - Definition: An automated process that extracts data from a source system, transforms it into a desired model, and loads the data into a file, database, or other data storage tool
    - ETL Pipelines: Extract, Transform, Load.
    - Automation is a key feature, triggered by events or schedules.
 
-2. **Components of an ETL Pipeline:**
+###  **Components of an ETL Pipeline:**
 - **Extraction:**
    - Process of pulling data from a source system, which may be a file, database, or API.
    - Involves accessing and retrieving raw data in its original format.
