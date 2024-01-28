@@ -28,7 +28,6 @@
    - Widely used tabular data source.
    - `read_sql` in pandas for querying and storing in DataFrame.
    - Connection through sqlalchemy's `create_engine` with a connection URI.
-   - 
    ```
    import sqlalchemy
    import pandas as pd
@@ -38,9 +37,9 @@
    db_engine = sqlalchemy.create_engine(connection_uri)
    ```
    ```
-   # Query the SQL databaseraw_stock_data = pd.read_sql("SELECT * FROM raw_stock_data LIMIT 10", db_engine)
+   # Query the SQL database
+   raw_stock_data = pd.read_sql("SELECT * FROM raw_stock_data LIMIT 10", db_engine)
    ```
-
 5. **Modularity:**
    - Crucial for pipeline development.
    - Separate "extract," "transform," and "load" logic into functions.
