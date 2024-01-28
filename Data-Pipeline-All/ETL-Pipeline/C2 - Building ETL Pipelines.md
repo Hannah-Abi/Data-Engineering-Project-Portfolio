@@ -32,6 +32,7 @@
      ```
    import sqlalchemy
    import pandas as pd
+   ```
    # Connection URI:
    schema_identifier://username:password@host:port/db
    connection_uri = "postgresql+psycopg2://repl:password@localhost:5432/market"
@@ -40,7 +41,6 @@
    ```
    # Query the SQL databaseraw_stock_data = pd.read_sql("SELECT * FROM raw_stock_data LIMIT 10", db_engine)
    ```
-
 
 5. **Modularity:**
    - Crucial for pipeline development.
