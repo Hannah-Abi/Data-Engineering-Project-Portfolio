@@ -5,19 +5,22 @@
    - ETL Pipelines: Extract, Transform, Load.
    - Automation is a key feature, triggered by events or schedules.
 
-2. **Data Pipeline Users**
-   - Users: Data Analysts, Data Scientists, ML Engineers, Business Intelligence Analysts.
-   - Dependency: Data pipelines can be used by other data pipelines.
-   - Utilization: Data supports analytics, dashboards, ML model training, ad hoc analyses, etc.
+2. **Components of an ETL Pipeline:**
+- **Extraction:**
+   - Process of pulling data from a source system, which may be a file, database, or API.
+   - Involves accessing and retrieving raw data in its original format.
 
-3. **Building Data Pipelines**
-   - Builders: Data Engineers (ETL Developers).
-   - Tools: Python and SQL as foundational, Apache Airflow for orchestration.
-   - Collaboration: Data Architects work with Data Engineers.
-   - Emphasis: Use Python and SQL to create effective and resilient data pipelines.
+-  **Transformation:**
+   - Converts the extracted raw data into a desired model or format.
+   - Encompasses both simple and advanced transformations to create a dataset ready for reporting.
 
-4. **Components of an ETL Pipeline**
-   - Extraction: Pull data from source (file, database, API).
-   - Transformation: Convert raw data to desired model.
-   - Loading: Load transformed data into storage (file, data warehouse, API).
-   - ELT Pipeline: Briefly mentioned as an alternative architecture, but focus is on ETL pipelines.
+-  **Loading:**
+   - Involves loading the transformed data into a storage medium for downstream use.
+   - The destination could be a file, data warehouse, or a POST request to an API.
+   - Ensuring stable access to the transformed data for users is crucial.
+
+-  **ELT Pipeline (Alternative Architecture):**
+   - Briefly mentioned as an alternative to ETL.
+   - In this approach, the "load" and "transform" steps are swapped based on the organization's architecture.
+   - Focus in the course remains primarily on ETL pipelines.
+
