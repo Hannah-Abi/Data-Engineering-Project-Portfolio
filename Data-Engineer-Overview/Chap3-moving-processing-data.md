@@ -74,4 +74,4 @@
 **Note:** Parallel computing is essential for efficient data processing, addressing both memory and processing power considerations. In big data processing, tasks are divided into smaller subtasks, which are then distributed across multiple computers.
 
 ## Cloud Providers 
-![Cloud-providers](./[pictures/cloud-services.png)
+![Cloud-providers](./pictures/cloud-services.png)
