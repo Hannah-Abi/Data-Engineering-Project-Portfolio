@@ -24,8 +24,6 @@
   - **Further Learning:** Interested learners can find courses on Apache Spark on platforms like DataCamp.
  
 ## **Scheduling Data**
-
-- **Introduction**
   - Acknowledgment of successful exercises.
   - Transition to the topic of scheduling.
 
@@ -39,20 +37,18 @@
   - Manual execution: Immediate task execution based on requests.
   - Downsides of human dependencies.
   - Preference for automation: Tasks set to execute at specific times or conditions.
+  - **Examples**
+    - **Time-based scheduling**: Updating the employee database every morning at 6 AM.
+    - **Sensor scheduling**: Executing tasks based on specific conditions.
+    - **Condition-based scheduling**: Updating specific tables only if certain conditions are met.
+  - **Optimal Scheduling**
+    - Balancing optimal options with resource considerations.
+    - Manual and automated systems complementing each other.
 
-- **Examples**
-  - Time-based scheduling: Updating the employee database every morning at 6 AM.
-  - Sensor scheduling: Executing tasks based on specific conditions.
-  - Condition-based scheduling: Updating specific tables only if certain conditions are met.
-
-- **Optimal Scheduling**
-  - Balancing optimal options with resource considerations.
-  - Manual and automated systems complementing each other.
-
-- **Data Ingestion Methods**
-  - Batch processing: Sent in groups at specific intervals; cost-effective.
+- **Data Ingestion Methods - Batches & Stream**
+  - **Batch processing**: Sent in groups at specific intervals; cost-effective.
     - Examples: Songs uploaded, employee table updates, finance department revenue table.
-  - Stream processing: Individual data records sent immediately.
+  - **Stream processing**: Individual data records sent immediately.
     - Examples: User sign-up, online vs. offline listening.
 
 - **Simplified Real-time Processing**
