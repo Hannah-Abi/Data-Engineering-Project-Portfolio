@@ -1,7 +1,7 @@
 ## In this repository
-### 1. Data Engineering Projects (listed below)
-### 2. Data Engineer Certificate (check file)
-### 3. Audited Courses
+1. **Data Engineering Projects (listed below)**
+2. **Data Engineer Certificate (check file)**
+3. **Audited Courses**
 - **Devops with Docker:** MOOC course offered by Computer Science Department fron University of Helsinki 
 - **Big Data Platforms:**: advanced course offered by Aalto University - Department of Computer Science
 # Data-Engineering-Project-Portfolio
