@@ -1,4 +1,4 @@
-## About two added course: DevOps with Docker and Big Data Platforms:
+### About two added course: DevOps with Docker and Big Data Platforms:
 These two courses are for my own learning and thus not registered in my transcripts. 
 - **Devops with Docker:** MOOC course offered by Computer Science Department fron University of Helsinki 
 - **Big Data Platforms:**: advanced course offered by Aalto University - Department of Computer Science

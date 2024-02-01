@@ -26,9 +26,18 @@
 **4. Accessing Azure**
 - **Methods:**
   - **Web Access (Common).**
+  ![Azure-Portal-GUI](./Azure-portal-GUI.png)
   - **Shell Access (Command-line interface for developers/data engineers).**
+![Powershell](./Powershell-CLI.png)
 
 **5. Common Use Cases**
 - **Versatility:** Applicable across industries and scenarios.
 - **Examples:**
-  - **Web hosting, game application development, data storage and analysis, machin
+  - **Web hosting, game application development, data storage and analysis, machine learning,** etc.
+
+**6. Advantages of Azure**
+- **Benefits:**
+  - **Diverse array of services.**
+  - **Pay-as-you-go pricing model for cost control.**
+  - **Robust security features.**
+  - **Seamless integration with Microsoft services.**
