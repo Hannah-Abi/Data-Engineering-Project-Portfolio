@@ -1,6 +1,6 @@
 ## Introduction to Shell 
 
-### Chapter 1 
+### Chapter 1 - Manipulating files and directories
 - Introduction to the **Unix shell**.
 - Reasons for the shell's continued relevance over nearly five decades.
 - Comparison between **the shell and graphical tools**.
