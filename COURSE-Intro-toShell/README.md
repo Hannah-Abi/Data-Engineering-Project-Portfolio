@@ -19,14 +19,16 @@
 | `rm -r <directory>` | Deletes the specified directory and its contents. | `rm -r directory_with_contents`                     |
 
 ## Chapter 2 . Data Manipulation with Unix Shell
-| Command Line                      | Description                                                                                                  |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------|
-| `cat FILE`                        | Displays the entire contents of the specified file on the screen.                                            |
-| `less FILE1 FILE2 ...`            | Displays file contents one page at a time, enabling easy scrolling through multiple files.                  |
-| `head FILE`                       | Displays the first few lines of the specified file, typically the first 10 lines by default.                |
-| `ls -R`                           | Lists all files and directories recursively in the current directory and its subdirectories.                |
-| `man COMMAND`                     | Retrieves detailed information about the specified command, including its purpose, usage, and options.      |
-| `cut OPTIONS FILE`                | Extracts specific columns from a text file based on the provided options and delimiter.                      |
-| Use the command history          | Allows recalling and repeating previously executed commands efficiently.                                       |
-| `grep PATTERN FILE`               | Searches for lines containing the specified pattern in the specified file and prints matching lines.         |
-| `grep OPTIONS PATTERN FILE`       | Searches for lines containing the specified pattern in the specified file and prints matching lines based on the provided options. In the example, `-v -n` inverts the match and displays line numbers. |
+Here's the table with examples included:
+
+| Command Line                      | Description                                                                                                  | Example                                             |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| `cat FILE`                        | Displays the entire contents of the specified file on the screen.                                            | `cat agarwal.txt`                                  |
+| `less FILE1 FILE2 ...`            | Displays file contents one page at a time, enabling easy scrolling through multiple files.                  | `less seasonal/spring.csv seasonal/summer.csv`     |
+| `head FILE`                       | Displays the first few lines of the specified file, typically the first 10 lines by default.                | `head seasonal/summer.csv`                        |
+| `ls -R`                           | Lists all files and directories recursively in the current directory and its subdirectories.                | `ls -R`                                             |
+| `man COMMAND`                     | Retrieves detailed information about the specified command, including its purpose, usage, and options.      | `man head`                                          |
+| `cut OPTIONS FILE`                | Extracts specific columns from a text file based on the provided options and delimiter.                      | `cut -f 2-5,8 -d , values.csv`                     |
+| Use the command history          | Allows recalling and repeating previously executed commands efficiently.                                       | Use up-arrow key or `!55` to repeat commands.      |
+| `grep PATTERN FILE`               | Searches for lines containing the specified pattern in the specified file and prints matching lines.         | `grep molar seasonal/autumn.csv`                   |
+| `grep OPTIONS PATTERN FILE`       | Searches for lines containing the specified pattern in the specified file and prints matching lines based on the provided options. In the example, `-v -n` inverts the match and displays line numbers. | `grep -v -n molar seasonal/spring.csv`           |
