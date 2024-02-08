@@ -19,14 +19,14 @@
 | `rm -r <directory>` | Deletes the specified directory and its contents. | `rm -r directory_with_contents`                     |
 
 ## Chapter 2 . Data Manipulation with Unix Shell
-| Command Line                       | Description                                                                                                   |
-|------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| `cat agarwal.txt`                  | Displays the entire contents of the file `agarwal.txt` on the screen.                                        |
-| `less seasonal/spring.csv seasonal/summer.csv` | Displays file contents one page at a time, allowing easy scrolling.                                           |
-| `head seasonal/summer.csv`        | Displays the first few lines of the file `seasonal/summer.csv`, typically 10 by default.                     |
-| `ls -R`                            | Lists all files and directories recursively in the current directory and its subdirectories.                |
-| `man head`                         | Retrieves detailed information about the `head` command, including its purpose, usage, and available options.|
-| `cut -f 2-5,8 -d , values.csv`     | Extracts specific columns from the file `values.csv` based on the specified delimiter.                        |
-| Use the up-arrow key to cycle through recent commands, or use `!55` to rerun the 55th command. | Allows recalling and repeating previously executed commands efficiently.                                      |
-| `grep molar seasonal/autumn.csv`  | Searches for lines containing the word "molar" in the file `seasonal/autumn.csv` and prints matching lines.    |
-| `grep -v -n molar seasonal/spring.csv` | Inverts match to show lines not containing the word "molar" in the file `seasonal/spring.csv`, along with line numbers. |
+| Command Line                      | Description                                                                                                  |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------|
+| `cat FILE`                        | Displays the entire contents of the specified file on the screen.                                            |
+| `less FILE1 FILE2 ...`            | Displays file contents one page at a time, enabling easy scrolling through multiple files.                  |
+| `head FILE`                       | Displays the first few lines of the specified file, typically the first 10 lines by default.                |
+| `ls -R`                           | Lists all files and directories recursively in the current directory and its subdirectories.                |
+| `man COMMAND`                     | Retrieves detailed information about the specified command, including its purpose, usage, and options.      |
+| `cut OPTIONS FILE`                | Extracts specific columns from a text file based on the provided options and delimiter.                      |
+| Use the command history          | Allows recalling and repeating previously executed commands efficiently.                                       |
+| `grep PATTERN FILE`               | Searches for lines containing the specified pattern in the specified file and prints matching lines.         |
+| `grep OPTIONS PATTERN FILE`       | Searches for lines containing the specified pattern in the specified file and prints matching lines based on the provided options. In the example, `-v -n` inverts the match and displays line numbers. |
