@@ -35,3 +35,27 @@
     - For example, `cp original.txt duplicate.txt` creates a copy of `original.txt` called `duplicate.txt`.
 - If the last parameter to `cp` is an existing directory, all files are copied into that directory.
     - For instance, `cp seasonal/summer.csv backup/summer.bck` copies the `summer.csv` file from the `seasonal` folder to the `backup` folder and renames it `summer.bck`.
+
+### Moving Files
+To move files, you use the `mv` command. For instance:
+```bash
+mv autumn.csv winter.csv ..
+```
+This moves `autumn.csv` and `winter.csv` up one directory.
+
+### Renaming Files
+The `mv` command can also rename files. For example:
+```bash
+mv course.txt old-course.txt
+```
+This renames `course.txt` to `old-course.txt`.
+
+### Deleting Files
+To delete files, use the `rm` command:
+```bash
+rm thesis.txt backup/thesis-2017-08.txt
+```
+This removes both `thesis.txt` and `backup/thesis-2017-08.txt`.
+
+### Managing Directories
+Directories can be renamed using `mv`. To delete them, you can use `rmdir`, which only works on empty directories. Experienced users can use the `-r` option with `rm` to delete directories and their contents.
