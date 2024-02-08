@@ -30,32 +30,22 @@
 - Another special path is `~`, which represents "your home directory", such as `/home/repl`.
 - `ls ~` lists the contents of your home directory, and `cd ~` takes you to your home directory.
 
-### **Copying Files:**
-- Use the `cp` command to copy files, move them to other directories, or rename them.
-    - For example, `cp original.txt duplicate.txt` creates a copy of `original.txt` called `duplicate.txt`.
-- If the last parameter to `cp` is an existing directory, all files are copied into that directory.
-    - For instance, `cp seasonal/summer.csv backup/summer.bck` copies the `summer.csv` file from the `seasonal` folder to the `backup` folder and renames it `summer.bck`.
+### **Copying Files:** 
+  - Use the `cp` command to copy files.
+  - Example: `cp original.txt duplicate.txt`
 
-### Moving Files
-To move files, you use the `mv` command. For instance:
-```bash
-mv autumn.csv winter.csv ..
-```
-This moves `autumn.csv` and `winter.csv` up one directory.
+### **Moving Files:**
+  - The `mv` command moves files from one directory to another.
+  - Example: `mv autumn.csv winter.csv ..`
 
-### Renaming Files
-The `mv` command can also rename files. For example:
-```bash
-mv course.txt old-course.txt
-```
-This renames `course.txt` to `old-course.txt`.
+### **Renaming Files:**
+  - `mv` can rename files.
+  - Example: `mv course.txt old-course.txt`
 
-### Deleting Files
-To delete files, use the `rm` command:
-```bash
-rm thesis.txt backup/thesis-2017-08.txt
-```
-This removes both `thesis.txt` and `backup/thesis-2017-08.txt`.
+### **Deleting Files:**
+  - Use `rm` to delete files.
+  - Example: `rm thesis.txt backup/thesis-2017-08.txt`
 
-### Managing Directories
-Directories can be renamed using `mv`. To delete them, you can use `rmdir`, which only works on empty directories. Experienced users can use the `-r` option with `rm` to delete directories and their contents.
+### **Creating and Deleting Directories:**
+  - Use `rmdir` to delete empty directories.
+  - Use `rm -r` for directories with contents.
