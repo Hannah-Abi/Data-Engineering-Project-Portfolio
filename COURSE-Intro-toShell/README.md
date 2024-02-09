@@ -12,7 +12,7 @@
 | `ls ~`        | Lists the contents of the home directory.          | `ls ~`                                              |
 | `cd ~`        | Changes the current directory to the home directory. | `cd ~`                                              |
 | `cp <source> <destination>` | Copies files from the source to the destination. | `cp original.txt duplicate.txt`                   |
-| `mv <source> <destination>` | Moves files from the source to the destination.   | `mv autumn.csv winter.csv ..`                      |
+| `mv <source> <destination>` | Moves files from the source to the destination.   | `mv seasonal/spring.csv seasonal/summer.csv backup`: move file from seasonal to backup                      |
 | `mv <old_name> <new_name>` | Renames files from old_name to new_name.           | `mv course.txt old-course.txt`                     |
 | `rm <file>`   | Deletes the specified file.                       | `rm thesis.txt backup/thesis-2017-08.txt`          |
 | `rmdir <directory>` | Deletes the specified empty directory.          | `rmdir empty_directory`                             |
