@@ -24,7 +24,7 @@ Here's the table with examples included:
 | Command Line                      | Description                                                                                                  | Example                                             |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | `cat FILE`                        | Displays the entire contents of the specified file on the screen.                                            | `cat agarwal.txt`                                  |
-| `less FILE1 FILE2 ...`            | Displays file contents one page at a time, enabling easy scrolling through multiple files.                  | `less seasonal/spring.csv seasonal/summer.csv`     |
+| `less FILE1 FILE2 ...`, type `:n` to move to the next file, `:p` to go back to the previous one, or :q to quit.            | Displays file contents one page at a time, enabling easy scrolling through multiple files.                  | `less seasonal/spring.csv seasonal/summer.csv`     |
 | `head FILE`                       | Displays the first few lines of the specified file, typically the first 10 lines by default.                | `head seasonal/summer.csv`                        |
 | `ls -R`                           | Lists all files and directories recursively in the current directory and its subdirectories.                | `ls -R`                                             |
 | `man COMMAND`                     | Retrieves detailed information about the specified command, including its purpose, usage, and options.      | `man head`                                          |
